@@ -43,9 +43,8 @@ img {
     border-right: 3px solid black;
 }
 .secciones {
-    display: flex;
     align-items: center;
-    padding: 40px;
+    justify-content: center;
 }
 .menu-secundario {
     width: 20%;
@@ -56,6 +55,22 @@ img {
     text-align: center;
     color: black;
     margin-bottom: 20px; 
+}
+.letras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.letra_parrafo {
+    text-align: justify;
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    text-align: right;
 }
 footer {
     width: 100%;
